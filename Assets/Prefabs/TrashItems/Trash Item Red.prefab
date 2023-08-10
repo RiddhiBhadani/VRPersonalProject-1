@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &2002074016816452982
+--- !u!1 &3194524642467372015
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,49 +8,49 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 2002074016816452981}
-  - component: {fileID: 2002074016816452968}
-  - component: {fileID: 2002074016816452969}
-  - component: {fileID: 2002074016816452970}
-  - component: {fileID: 2002074016816452971}
-  - component: {fileID: 2002074016816452980}
+  - component: {fileID: 3194524642467372012}
+  - component: {fileID: 3194524642467372017}
+  - component: {fileID: 3194524642467372016}
+  - component: {fileID: 3194524642467372019}
+  - component: {fileID: 3194524642467372018}
+  - component: {fileID: 3194524642467372013}
   m_Layer: 0
-  m_Name: Trash Item 2
-  m_TagString: Untagged
+  m_Name: Trash Item Red
+  m_TagString: Red
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &2002074016816452981
+--- !u!4 &3194524642467372012
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2002074016816452982}
+  m_GameObject: {fileID: 3194524642467372015}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.39, y: 0.22, z: 1.22}
-  m_LocalScale: {x: 0.07671, y: 0.29993176, z: 0.07604633}
+  m_LocalPosition: {x: 1.437, y: 0.067, z: 1.729}
+  m_LocalScale: {x: 0.06823927, y: 0.24556936, z: 0.06823927}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!33 &2002074016816452968
+--- !u!33 &3194524642467372017
 MeshFilter:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2002074016816452982}
+  m_GameObject: {fileID: 3194524642467372015}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!23 &2002074016816452969
+--- !u!23 &3194524642467372016
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2002074016816452982}
+  m_GameObject: {fileID: 3194524642467372015}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -64,7 +64,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: d945dca10fdb1154db8605e48a0c8078, type: 2}
+  - {fileID: 2100000, guid: 8313b7f851584554aa895abc637c721f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -86,26 +86,26 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &2002074016816452970
+--- !u!65 &3194524642467372019
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2002074016816452982}
+  m_GameObject: {fileID: 3194524642467372015}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!54 &2002074016816452971
+--- !u!54 &3194524642467372018
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2002074016816452982}
+  m_GameObject: {fileID: 3194524642467372015}
   serializedVersion: 2
   m_Mass: 1
   m_Drag: 0
@@ -115,13 +115,13 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 2
---- !u!114 &2002074016816452980
+--- !u!114 &3194524642467372013
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2002074016816452982}
+  m_GameObject: {fileID: 3194524642467372015}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0ad34abafad169848a38072baa96cdb2, type: 3}
@@ -133,7 +133,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4294967295
   m_InteractionLayers:
-    m_Bits: 1
+    m_Bits: 4294967295
   m_SelectMode: 0
   m_CustomReticle: {fileID: 0}
   m_FirstHoverEntered:
